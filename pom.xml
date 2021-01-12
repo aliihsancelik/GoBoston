@@ -73,7 +73,7 @@
                         <include>**/*FailedTestRunner.java</include>
                     </includes>
                 </configuration>
-            </plugin>
+            </plugin> 
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>

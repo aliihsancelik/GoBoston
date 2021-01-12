@@ -25,7 +25,7 @@ public class Hooks {
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-   @After
+    @After
     public void closure(Scenario scenario){
 
        if(scenario.isFailed()){

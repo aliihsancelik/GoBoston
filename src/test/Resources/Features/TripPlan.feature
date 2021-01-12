@@ -1,8 +1,8 @@
 
 
 
-@plan
-Feature: Trip Planning
+ @plan
+ Feature: Trip Planning
 
     Scenario: Check planning a trip functionality
       Given I am on "All-Inclusive" Page

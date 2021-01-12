@@ -49,7 +49,7 @@ Note: To run the scenario, use `@plan` tag in the CukesRunner class/Cucumber Opt
 with in the 24 hours and check the all test steps and status. 
 
 ------------
-
+ 
 ## Cucumber Test Feature Scenario:
 ####) Validate the user journey on the website for trip planning feature
  a- In this Scenario, it tests the basic trip planning steps
