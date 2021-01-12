@@ -1,0 +1,300 @@
+INFO    2021-01-12 19:56:19,077 [main] StepDefinitions.Hooks  - ======SETUP=======
+DEBUG   2021-01-12 19:56:20,253 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome=87 from cache (expired on Fri Jan 01 18:42:04 GMT 2021)
+DEBUG   2021-01-12 19:56:20,258 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+DEBUG   2021-01-12 19:56:21,411 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: Google Chrome 87.0.4280.141
+DEBUG   2021-01-12 19:56:21,413 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome87=87.0.4280.88 from cache (expired on Sat Jan 02 17:42:04 GMT 2021)
+DEBUG   2021-01-12 19:56:21,447 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: preparing request execution
+DEBUG   2021-01-12 19:56:21,460 [main] org.apache.hc.client5.http.protocol.RequestAddCookies  - Cookie spec selected: strict
+DEBUG   2021-01-12 19:56:21,472 [main] org.apache.hc.client5.http.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2021-01-12 19:56:21,473 [main] org.apache.hc.client5.http.impl.classic.ProtocolExec  - ex-00000001: target auth state: UNCHALLENGED
+DEBUG   2021-01-12 19:56:21,474 [main] org.apache.hc.client5.http.impl.classic.ProtocolExec  - ex-00000001: proxy auth state: UNCHALLENGED
+DEBUG   2021-01-12 19:56:21,474 [main] org.apache.hc.client5.http.impl.classic.ConnectExec  - ex-00000001: acquiring connection with route {s}->https://chromedriver.storage.googleapis.com:443
+DEBUG   2021-01-12 19:56:21,474 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: acquiring endpoint (3 MINUTES)
+DEBUG   2021-01-12 19:56:21,476 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+DEBUG   2021-01-12 19:56:21,492 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: endpoint leased [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG   2021-01-12 19:56:21,568 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ex-00000001: acquired ep-00000000
+DEBUG   2021-01-12 19:56:21,569 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ex-00000001: acquired endpoint ep-00000000
+DEBUG   2021-01-12 19:56:21,569 [main] org.apache.hc.client5.http.impl.classic.ConnectExec  - ex-00000001: opening connection {s}->https://chromedriver.storage.googleapis.com:443
+DEBUG   2021-01-12 19:56:21,571 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: connecting endpoint (30 SECONDS)
+DEBUG   2021-01-12 19:56:21,571 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connecting endpoint to https://chromedriver.storage.googleapis.com:443 (30 SECONDS)
+DEBUG   2021-01-12 19:56:21,655 [main] org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator  - http-outgoing-0: connecting to chromedriver.storage.googleapis.com/216.58.211.176:443
+DEBUG   2021-01-12 19:56:21,657 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Connecting socket to chromedriver.storage.googleapis.com/216.58.211.176:443 with timeout 30 SECONDS
+DEBUG   2021-01-12 19:56:21,924 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1.3, TLSv1.2]
+DEBUG   2021-01-12 19:56:21,925 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG   2021-01-12 19:56:21,925 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Starting handshake
+DEBUG   2021-01-12 19:56:22,329 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  - Secure session established
+DEBUG   2021-01-12 19:56:22,330 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.3
+DEBUG   2021-01-12 19:56:22,330 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+DEBUG   2021-01-12 19:56:22,341 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  peer principal: CN=*.storage.googleapis.com, O=Google LLC, L=Mountain View, ST=California, C=US
+DEBUG   2021-01-12 19:56:22,341 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  peer alternative names: [*.storage.googleapis.com, *.appspot.com.storage.googleapis.com, *.commondatastorage.googleapis.com, *.content-storage-download.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage.googleapis.com, *.googleapis.com, *.storage-download.googleapis.com, *.storage-upload.googleapis.com, commondatastorage.googleapis.com, storage.googleapis.com, storage.mtls.googleapis.com]
+DEBUG   2021-01-12 19:56:22,341 [main] org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+DEBUG   2021-01-12 19:56:22,345 [main] org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator  - http-outgoing-0: connection established 172.20.10.8:53025<->216.58.211.176:443
+DEBUG   2021-01-12 19:56:22,346 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connected http-outgoing-0
+DEBUG   2021-01-12 19:56:22,346 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: endpoint connected
+DEBUG   2021-01-12 19:56:22,349 [main] org.apache.hc.client5.http.impl.classic.MainClientExec  - ex-00000001: executing GET /LATEST_RELEASE_87 HTTP/1.1
+DEBUG   2021-01-12 19:56:22,349 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: start execution ex-00000001
+DEBUG   2021-01-12 19:56:22,349 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> GET /LATEST_RELEASE_87 HTTP/1.1
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> cache-control: max-age=0
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> Host: chromedriver.storage.googleapis.com
+DEBUG   2021-01-12 19:56:22,351 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 >> Connection: keep-alive
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "GET /LATEST_RELEASE_87 HTTP/1.1[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG   2021-01-12 19:56:22,352 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 >> "[\r][\n]"
+DEBUG   2021-01-12 19:56:22,404 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2021-01-12 19:56:22,404 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "X-GUploader-UploadID: ABg5-UwRRNgZ-9ZumiY_V7p0Bld1hfcaJUbek2rC15fSjoyXqVLqtttitlc2neACx3khwPkMCacMZWyGSo_Lgvpc0AA[\r][\n]"
+DEBUG   2021-01-12 19:56:22,404 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Expires: Tue, 12 Jan 2021 20:45:22 GMT[\r][\n]"
+DEBUG   2021-01-12 19:56:22,404 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Date: Tue, 12 Jan 2021 19:45:22 GMT[\r][\n]"
+DEBUG   2021-01-12 19:56:22,404 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Last-Modified: Wed, 06 Jan 2021 20:30:38 GMT[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "ETag: "d739877113b493d357befb7087e4cf4b"[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-generation: 1609965038065088[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-metageneration: 1[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-stored-content-encoding: identity[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-stored-content-length: 12[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Language: en[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-hash: crc32c=k2ZKlg==[\r][\n]"
+DEBUG   2021-01-12 19:56:22,405 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-hash: md5=1zmHcRO0k9NXvvtwh+TPSw==[\r][\n]"
+DEBUG   2021-01-12 19:56:22,406 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "x-goog-storage-class: STANDARD[\r][\n]"
+DEBUG   2021-01-12 19:56:22,406 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG   2021-01-12 19:56:22,406 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Content-Length: 12[\r][\n]"
+DEBUG   2021-01-12 19:56:22,406 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Server: UploadServer[\r][\n]"
+DEBUG   2021-01-12 19:56:22,406 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Age: 660[\r][\n]"
+DEBUG   2021-01-12 19:56:22,407 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Cache-Control: public, max-age=3600[\r][\n]"
+DEBUG   2021-01-12 19:56:22,407 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+DEBUG   2021-01-12 19:56:22,407 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "[\r][\n]"
+DEBUG   2021-01-12 19:56:22,407 [main] org.apache.hc.client5.http.wire  - http-outgoing-0 << "87.0.4280.88"
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << X-GUploader-UploadID: ABg5-UwRRNgZ-9ZumiY_V7p0Bld1hfcaJUbek2rC15fSjoyXqVLqtttitlc2neACx3khwPkMCacMZWyGSo_Lgvpc0AA
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Expires: Tue, 12 Jan 2021 20:45:22 GMT
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Date: Tue, 12 Jan 2021 19:45:22 GMT
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Last-Modified: Wed, 06 Jan 2021 20:30:38 GMT
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << ETag: "d739877113b493d357befb7087e4cf4b"
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-generation: 1609965038065088
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-metageneration: 1
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-stored-content-encoding: identity
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-stored-content-length: 12
+DEBUG   2021-01-12 19:56:22,414 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Type: text/plain
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Language: en
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-hash: crc32c=k2ZKlg==
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-hash: md5=1zmHcRO0k9NXvvtwh+TPSw==
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << x-goog-storage-class: STANDARD
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Accept-Ranges: bytes
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Content-Length: 12
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Server: UploadServer
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Age: 660
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Cache-Control: public, max-age=3600
+DEBUG   2021-01-12 19:56:22,415 [main] org.apache.hc.client5.http.headers  - http-outgoing-0 << Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+DEBUG   2021-01-12 19:56:22,422 [main] org.apache.hc.client5.http.impl.classic.MainClientExec  - ex-00000001: connection can be kept alive for 3 MINUTES
+DEBUG   2021-01-12 19:56:22,428 [main] org.apache.hc.client5.http.impl.classic.InternalHttpClient  - ep-00000000: releasing valid endpoint
+DEBUG   2021-01-12 19:56:22,428 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: releasing endpoint
+DEBUG   2021-01-12 19:56:22,428 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+DEBUG   2021-01-12 19:56:22,429 [main] org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager  - ep-00000000: connection released [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+DEBUG   2021-01-12 19:56:22,429 [main] io.github.bonigarcia.wdm.versions.VersionDetector  - Latest version of chromedriver according to https://chromedriver.storage.googleapis.com/LATEST_RELEASE_87 is 87.0.4280.88
+INFO    2021-01-12 19:56:22,429 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 19:56:22,438 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 19:56:22,442 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+DEBUG   2021-01-12 19:56:22,521 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 19:56:22,522 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 19:56:43,614 [main] StepDefinitions.Hooks  - ======CLOSURE=======
+INFO    2021-01-12 20:14:30,251 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:14:31,154 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:14:31,156 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:14:31,157 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:14:31,208 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:14:31,211 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:14:54,291 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:17:24,889 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:17:25,660 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:17:25,662 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:17:25,663 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:17:25,725 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:17:25,726 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:17:46,014 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:18:17,081 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:18:17,967 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:18:17,969 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:18:17,971 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:18:18,015 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:18:18,017 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:18:32,527 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:22:12,725 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:22:13,568 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:22:13,570 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:22:13,570 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:22:13,628 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:22:13,629 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:22:29,672 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:22:52,465 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:22:53,472 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:22:53,474 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:22:53,475 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:22:53,531 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:22:53,533 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:23:11,444 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:23:22,261 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:23:23,106 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:23:23,108 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:23:23,109 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:23:23,168 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:23:23,170 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:23:36,011 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:25:54,594 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:25:55,407 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:25:55,409 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:25:55,410 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:25:55,473 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:25:55,474 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:26:14,624 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:26:48,749 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:26:49,651 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:26:49,655 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:26:49,655 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:26:49,715 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:26:49,717 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:27:05,824 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:29:56,403 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:29:57,285 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:29:57,287 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:29:57,288 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:29:57,349 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:29:57,351 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:30:26,283 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 20:38:18,019 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 20:38:18,983 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 20:56:22 12/01/2021 GMT)
+DEBUG   2021-01-12 20:38:18,986 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 20:38:18,986 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 20:38:19,045 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 20:38:19,047 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 20:38:35,135 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 21:59:11,306 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 21:59:12,188 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome=87 from cache (expired on Tue Jan 12 20:56:22 GMT 2021)
+DEBUG   2021-01-12 21:59:12,193 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+DEBUG   2021-01-12 21:59:12,856 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: Google Chrome 87.0.4280.141
+DEBUG   2021-01-12 21:59:12,860 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 21:59:12,860 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 21:59:12,862 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 21:59:12,923 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 21:59:12,924 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:00:13,071 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:00:51,062 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:00:51,899 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:00:51,902 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:00:51,903 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:00:51,954 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:00:51,955 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:01:25,926 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:03:08,041 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:03:08,875 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:03:08,877 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:03:08,879 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:03:08,922 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:03:08,924 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:03:40,833 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:03:53,104 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:03:53,972 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:03:53,974 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:03:53,978 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:03:54,031 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:03:54,033 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:04:17,759 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:04:41,914 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:04:42,748 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:04:42,751 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:04:42,751 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:04:42,798 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:04:42,800 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:05:14,278 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:07:43,756 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:07:44,610 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:07:44,612 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:07:44,613 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:07:44,673 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:07:44,674 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:08:15,859 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:20:49,911 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:20:50,669 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:20:50,671 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:20:50,672 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:20:50,745 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:20:50,747 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:21:00,781 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 22:21:00,862 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 22:21:05,429 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 22:21:18,634 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 22:21:23,749 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:41:46,501 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:41:47,347 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:41:47,348 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:41:47,349 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:41:47,415 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:41:47,417 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:41:57,191 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 22:41:57,306 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 22:42:01,402 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 22:42:08,217 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 22:42:19,243 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:42:40,488 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:42:41,173 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:42:41,175 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:42:41,176 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:42:41,218 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:42:41,220 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:42:48,654 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 22:42:48,811 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 22:42:52,890 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 22:42:59,419 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 22:43:10,432 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 22:43:10,637 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 22:43:10,654 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 22:59:12 12/01/2021 GMT)
+DEBUG   2021-01-12 22:43:10,656 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 22:43:10,656 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 22:43:10,688 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 22:43:10,694 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 22:43:18,928 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 22:43:19,183 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 22:43:23,127 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 22:43:35,145 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 22:43:41,192 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 23:02:08,237 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 23:02:09,204 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Removing resolution chrome=87 from cache (expired on Tue Jan 12 22:59:12 GMT 2021)
+DEBUG   2021-01-12 23:02:09,208 [main] io.github.bonigarcia.wdm.versions.Shell  - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+DEBUG   2021-01-12 23:02:09,737 [main] io.github.bonigarcia.wdm.versions.Shell  - Result: Google Chrome 87.0.4280.141
+DEBUG   2021-01-12 23:02:09,744 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 23:02:09,745 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 23:02:09,747 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Storing resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+DEBUG   2021-01-12 23:02:09,811 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 23:02:09,812 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 23:02:18,609 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 23:02:18,889 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 23:02:22,795 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 23:02:29,359 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 23:02:40,280 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 23:03:25,501 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 23:03:26,351 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+DEBUG   2021-01-12 23:03:26,353 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 23:03:26,353 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 23:03:26,397 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 23:03:26,399 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 23:03:34,744 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 23:03:34,986 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 23:03:39,946 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 23:03:53,538 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 23:03:58,673 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 23:04:40,958 [main] StepDefinitions.Hooks  - Before the Setup
+DEBUG   2021-01-12 23:04:43,195 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+DEBUG   2021-01-12 23:04:43,197 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+INFO    2021-01-12 23:04:43,198 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+DEBUG   2021-01-12 23:04:43,352 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+INFO    2021-01-12 23:04:43,354 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+INFO    2021-01-12 23:04:54,353 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+INFO    2021-01-12 23:04:54,373 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+INFO    2021-01-12 23:04:58,191 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+INFO    2021-01-12 23:05:11,177 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+INFO    2021-01-12 23:05:16,371 [main] StepDefinitions.Hooks  - After the Closure
