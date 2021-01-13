@@ -21,6 +21,8 @@ www.linkedin.com/in/aliihsancelik
 ------------
 #### System Requirements: 
 - Java 8 + JDK
+- IntelliJ Cucumber Plugin
+- IntelliJ Gherkin Plugin
 
 ------------
 ## Test RUN 
