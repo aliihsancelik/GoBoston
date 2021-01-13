@@ -12,6 +12,10 @@ public class BrowserUtil {
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
+    public static WebElement waitForVisibility(WebElement element, int timeout) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),timeout);
+        return wait.until(ExpectedConditions.visibilityOf(element));
+    }
 
     public static void waitFor(int seconds) {
         try {

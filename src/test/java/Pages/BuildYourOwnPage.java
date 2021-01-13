@@ -1,5 +1,7 @@
 package Pages;
 
+import Utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -14,7 +16,18 @@ public class BuildYourOwnPage extends BasePage {
     @FindBy(css = ".travel-date--calendar.travel-date-element.hasDatepicker")
     public WebElement dateDropDown;
 
-    @FindBy(xpath = "//a[contains(text(),'29')]")
-    public WebElement day;
+    @FindBy(xpath = "(//a[contains(text(),'Continue to payment')])[1]")
+    public WebElement continuePayment;
+
+    @FindBy(xpath = "//h2[contains(text(),'Choose a payment method')]")
+    public WebElement paymentPageText;
+
+
+    public WebElement pickDay(String day){
+
+        WebElement pickedDay = Driver.getDriver().findElement(By.xpath("//a[contains(text(),'"+day+"')]"));
+
+        return pickedDay;
+    }
 
 }
