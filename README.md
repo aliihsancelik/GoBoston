@@ -54,10 +54,10 @@ with in the 24 hours and check the all test steps and status.
  
 ## Cucumber Test Feature Scenarios:
 
-<<<<<<< Build Your Own Feaure
+<<<<<<< Build Your Own Feature
 ####) Validate the user journey on the website for Build Your Own feature.
 
- a- In this Scenario, it tests the basic Build Your Own steps until payment
+ a- In this Scenario, it tests the basic Build Your Own steps until payment page
  
  b- To run this scenario, use the `@build` tag in the CukesRunner class/Cucumber Options
  
