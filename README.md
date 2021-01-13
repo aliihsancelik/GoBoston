@@ -1,4 +1,4 @@
-# UI Testing Exercise 
+# UI Automation Assessment
 
 #### Codes and Test Prepared by:
 **Ali Ihsan Celik*
@@ -52,6 +52,7 @@ with in the 24 hours and check the all test steps and status.
  
 ## Cucumber Test Feature Scenario:
 ####) Validate the user journey on the website for trip planning feature
+ 
  a- In this Scenario, it tests the basic trip planning steps
  
  b- To run this scenario, use the `@plan` tag in the CukesRunner class/Cucumber Options
