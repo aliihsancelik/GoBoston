@@ -12,7 +12,7 @@ www.linkedin.com/in/aliihsancelik
 
 **- Build Tool:** Maven
 
-**- Test Framework:** Cucumber BBD (with Junit Assertions)
+**- Test Framework:** Cucumber BBD (with JUnit Assertions)
 
 ------------
 ##### Environment: 
