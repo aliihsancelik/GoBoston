@@ -14,7 +14,7 @@ public class BuildYourOwnPage extends BasePage {
     @FindBy(xpath = "(//a[contains(text(),'Checkout')])[1]")
     public WebElement checkout;
 
-    @FindBy(css = ".travel-date--calendar.travel-date-element.hasDatepicker")
+    @FindBy(css = ".travel-date--datepicker")
     public WebElement dateDropDown;
 
     @FindBy(xpath = "(//a[contains(text(),'Continue to payment')])[1]")
