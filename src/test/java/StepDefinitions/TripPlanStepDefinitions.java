@@ -43,7 +43,6 @@ public class TripPlanStepDefinitions {
          planYourTripPage.plannedDate.click();
          planYourTripPage.privacyBox.click();
          planYourTripPage.submit.click();
-
     }
 
     @Then("I should be able to download my guidebook")

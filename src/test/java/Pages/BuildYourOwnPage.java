@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class BuildYourOwnPage extends BasePage {
 
+
     @FindBy(xpath = "(//button[contains(text(),'Add to cart')])[1]")
     public WebElement firstAttraction;
 

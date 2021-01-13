@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class PlanYourTripPage extends BasePage {
 
+
     @FindBy(xpath = "(//a[contains(text(),'Plan your trip')])[3]")
     public WebElement planYourTrip;
 

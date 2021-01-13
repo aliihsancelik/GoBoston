@@ -38,7 +38,6 @@ public class BuildYourOwnStepDefinitions {
         buildYourOwnPage.pickDay(day).click();
         BrowserUtil.waitForClickablility(buildYourOwnPage.continuePayment, 5);
         buildYourOwnPage.continuePayment.click();
-
     }
 
     @Then("I should be on {string} page")

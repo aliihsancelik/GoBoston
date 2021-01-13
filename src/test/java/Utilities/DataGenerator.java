@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class DataGenerator {
 
+
     public static Map<String,String> createUserInfo(){
 
         Faker faker = new Faker();
