@@ -25,6 +25,7 @@ public class BuildYourOwnStepDefinitions {
         logger.info("Adding first attraction to the cart and clicking the checkout");
         BrowserUtil.waitForClickablility(buildYourOwnPage.firstAttraction , 5);
         buildYourOwnPage.firstAttraction.click();
+        BrowserUtil.waitFor(2);
         buildYourOwnPage.checkout.click();
     }
 
@@ -32,9 +33,9 @@ public class BuildYourOwnStepDefinitions {
     public void i_choose_the_date_for_the_current_month_and_continue_to_payment(String day) {
 
         logger.info("Choosing the date and clicking the continue to payment");
-        BrowserUtil.waitForClickablility(buildYourOwnPage.dateDropDown , 5);
+        BrowserUtil.waitFor(1);
         buildYourOwnPage.dateDropDown.click();
-        BrowserUtil.waitFor(2);
+        BrowserUtil.waitFor(1);
         buildYourOwnPage.pickDay(day).click();
         BrowserUtil.waitForClickablility(buildYourOwnPage.continuePayment, 5);
         buildYourOwnPage.continuePayment.click();
