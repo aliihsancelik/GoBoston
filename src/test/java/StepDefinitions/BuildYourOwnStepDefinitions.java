@@ -34,7 +34,7 @@ public class BuildYourOwnStepDefinitions {
         logger.info("Choosing the date and clicking the continue to payment");
         BrowserUtil.waitForClickablility(buildYourOwnPage.dateDropDown , 5);
         buildYourOwnPage.dateDropDown.click();
-        BrowserUtil.waitFor(1);
+        BrowserUtil.waitFor(2);
         buildYourOwnPage.pickDay(day).click();
         BrowserUtil.waitForClickablility(buildYourOwnPage.continuePayment, 5);
         buildYourOwnPage.continuePayment.click();
