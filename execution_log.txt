@@ -298,3 +298,37 @@ INFO    2021-01-12 23:04:54,373 [main] StepDefinitions.TripPlanStepDefinitions  
 INFO    2021-01-12 23:04:58,191 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
 INFO    2021-01-12 23:05:11,177 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
 INFO    2021-01-12 23:05:16,371 [main] StepDefinitions.Hooks  - After the Closure
+INFO    2021-01-12 23:35:54,237 [main] StepDefinitions.Hooks  - Before the Setup
+  DEBUG   2021-01-12 23:35:55,628 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+  DEBUG   2021-01-12 23:35:55,629 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+  INFO    2021-01-12 23:35:55,631 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+  DEBUG   2021-01-12 23:35:55,709 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+  INFO    2021-01-12 23:35:55,711 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+  INFO    2021-01-12 23:36:04,115 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+  INFO    2021-01-12 23:36:04,170 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+  INFO    2021-01-12 23:36:09,837 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+  INFO    2021-01-12 23:36:24,304 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+  INFO    2021-01-12 23:36:31,401 [main] StepDefinitions.Hooks  - After the Closure
+  INFO    2021-01-12 23:37:12,192 [main] StepDefinitions.Hooks  - Before the Setup
+  DEBUG   2021-01-12 23:37:13,101 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+  DEBUG   2021-01-12 23:37:13,104 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+  INFO    2021-01-12 23:37:13,104 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+  DEBUG   2021-01-12 23:37:13,168 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+  INFO    2021-01-12 23:37:13,169 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+  INFO    2021-01-12 23:37:20,602 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+  INFO    2021-01-12 23:37:21,281 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+  INFO    2021-01-12 23:37:24,754 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+  INFO    2021-01-12 23:37:37,451 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+  INFO    2021-01-12 23:37:42,664 [main] StepDefinitions.Hooks  - After the Closure
+  INFO    2021-01-12 23:43:56,850 [main] StepDefinitions.Hooks  - Before the Setup
+  DEBUG   2021-01-12 23:43:57,762 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome=87 in cache (valid until 00:02:09 13/01/2021 GMT)
+  DEBUG   2021-01-12 23:43:57,764 [main] io.github.bonigarcia.wdm.cache.ResolutionCache  - Resolution chrome87=87.0.4280.88 in cache (valid until 19:56:22 13/01/2021 GMT)
+  INFO    2021-01-12 23:43:57,764 [main] io.github.bonigarcia.wdm.WebDriverManager  - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+  DEBUG   2021-01-12 23:43:57,824 [main] io.github.bonigarcia.wdm.WebDriverManager  - Driver chromedriver 87.0.4280.88 found in cache
+  INFO    2021-01-12 23:43:57,826 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as /Users/aliihsancelik/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+  INFO    2021-01-12 23:44:06,582 [main] StepDefinitions.TripPlanStepDefinitions  - Verifying the first location
+  INFO    2021-01-12 23:44:06,703 [main] StepDefinitions.TripPlanStepDefinitions  - Navigating to the Plan your trip page
+  INFO    2021-01-12 23:44:11,333 [main] StepDefinitions.TripPlanStepDefinitions  - Filling the user information for a trip plan
+  INFO    2021-01-12 23:44:25,871 [main] StepDefinitions.TripPlanStepDefinitions  - Clicking download and verifying the url after clicking download
+  INFO    2021-01-12 23:44:31,838 [main] StepDefinitions.Hooks  - After the Closure
+  

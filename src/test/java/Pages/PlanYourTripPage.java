@@ -1,5 +1,6 @@
 package Pages;
 
+import Utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -20,8 +21,8 @@ public class PlanYourTripPage extends BasePage {
     @FindBy(css = "#edit-travel-date")
     public WebElement travelDates;
 
-    @FindBy(xpath = "//a[contains(text(),'29')]")
-    public WebElement plannedDate;
+   @FindBy(xpath = "//a[contains(text(),'29')]")
+   public WebElement plannedDate;
 
     @FindBy(css = "#edit-subscription")
     public WebElement privacyBox;
@@ -31,4 +32,8 @@ public class PlanYourTripPage extends BasePage {
 
     @FindBy(xpath = "//a[contains(text(),'Download your guide')]")
     public WebElement download;
+
+
+
+
 }

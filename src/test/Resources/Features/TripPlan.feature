@@ -1,9 +1,10 @@
 
 
 
- @plan
+
  Feature: Trip Planning
 
+    @plan
     Scenario: Check planning a trip functionality
       Given I am on "All-Inclusive" Page
       When I navigate to Plan your trip Page
